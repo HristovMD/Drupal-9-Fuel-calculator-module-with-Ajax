@@ -1,0 +1,21 @@
+<?php
+/**
+ * Implements hook_library_info() for fuel_calculator.
+ */
+function fuel_calculator_library_info() {
+    $libraries = [];
+  
+    $libraries['fuel-calculator-js'] = [
+      'title' => 'Fuel calculator JavaScript',
+      'version' => '1.x',
+      'js' => [
+        'js/fuelcalculator.js' => [],
+      ],
+      'dependencies' => [
+        'core/jquery',
+      ],
+    ];
+  
+    return $libraries;
+  }
+  

@@ -1,0 +1,6 @@
+name: 'Fuel calculator'
+description: 'Fuel calculator'
+core_version_requirement: ^9 || ^10
+type: module
+libraries:
+  - fuel_calculator/fuel-calculator-js

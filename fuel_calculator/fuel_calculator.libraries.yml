@@ -1,0 +1,6 @@
+fuel_calculator:
+  version: 0
+  js:
+    js/fuelcalculator.js: {}
+  dependencies:
+    - core/jquery
